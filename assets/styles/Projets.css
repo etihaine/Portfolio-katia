@@ -1,0 +1,61 @@
+body
+{
+  background-color: rgba(0, 0, 0, 0.226);
+}
+.Sommaire {
+  width: 15em;
+  height: 15em;
+  border: 1px solid rgb(168, 164, 164);
+  margin-top: 3em;
+  margin-left: 3em;
+
+  margin-bottom: 3em;
+  padding: 8px 12px ;
+  background :  rgba(241, 237, 237, 0.938);
+  
+}
+
+.nav-sommaire
+{
+  margin-left: 2px;
+}
+
+.SommaireP
+{
+  text-decoration: none;
+  color : black;
+}
+
+.Section
+{
+
+      text-align: center;
+      border: 1px solid rgb(168, 164, 164);
+      margin-top: 1em;
+      margin-left: 3em;
+      margin-right: 3em;
+      padding: 8px 12px;
+      background: white;
+    
+}
+
+.Titreh2
+{
+  text-align: center;
+    border: 1px solid rgb(168, 164, 164);
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding: 8px 12px;
+    background: rgba(250, 246, 246, 0.993);
+}
+
+p
+{
+  margin-left: 50px;
+  margin-right: 50px ;
+  margin-top: 2em;
+  text-align: center;
+  text-size-adjust: auto;
+  
+}
