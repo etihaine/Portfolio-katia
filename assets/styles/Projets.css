@@ -5,7 +5,7 @@ html {
   scroll-behavior: smooth;
 }
 
-
+/**************** MENU ****************/
 .menu 
 {
   background: White;
@@ -111,14 +111,14 @@ span.m-toggle-icon:after {top: -14px;}
 }
 
 
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 1000px) {
   .m-right
   {
     position: absolute;
     top: 66px;
     right: 0;
     width: 200px;
-    height: 38%;
+    height: 46%;
     border-left: 1px solid rgb(168, 164, 164);
     border-bottom: 1px solid rgb(168, 164, 164);
     background: white;
@@ -145,6 +145,9 @@ span.m-toggle-icon:after {top: -14px;}
   }
   
 }
+
+
+/**************** SECTION PROJETS ****************/
 
 body
 {
@@ -226,7 +229,7 @@ p
 
 
 
-@media only screen and (max-width: 880px) 
+@media only screen and (max-width: 1000px) 
 {
   .Titreh2
   {
@@ -247,5 +250,49 @@ p
       text-align: center;
       text-justify: auto;
     }
+
+}
+
+
+
+/**************** SECTION VEILLE ****************/
+
+.TitreVeille
+{
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 900;
+    border: 1px solid rgb(168, 164, 164);
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 8px 12px;
+    background: rgba(250, 246, 246, 0.993);
+}
+
+.Cadre
+{
+  text-align: center;
+    border: 1px solid rgb(168, 164, 164);
+    margin-top: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 0;
+    padding: 8px 12px;
+    background: white;
+    color: black;
+}
+
+.Veille
+{
+    text-align: center;
+      border: 1px solid rgb(168, 164, 164);
+      margin-top: 1em;
+      margin-left: 3em;
+      margin-right: 3em;
+      margin-bottom: 0;
+      padding: 8px 12px;
+      background: white;
+      color: black;
 
 }
